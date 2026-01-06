@@ -1,0 +1,10 @@
+{
+  "product": "BadBuddha Account Orders Monitor Lite",
+  "version": "1.2.0.0",
+  "releaseDate": "2026-01-06",
+  "type": "indicator",
+  "tier": "lite",
+  "minNinjaTraderVersion": "8.0.0.0",
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/AccountOrdersMonitor-Lite/1.2.0.0?source=update"
+
+}
