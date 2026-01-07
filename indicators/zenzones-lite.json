@@ -1,0 +1,9 @@
+{
+  "product": "BadBuddha_ZenZonesLite",
+  "version": "2.1.0.0",
+  "releaseDate": "2026-01-07",
+  "type": "indicator",
+  "tier": "lite",
+  "minNinjaTraderVersion": "8.0.0.0",
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/ZenZones-Lite/2.1.0.0?source=update"
+}
