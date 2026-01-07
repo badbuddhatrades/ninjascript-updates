@@ -1,0 +1,9 @@
+{
+  "product": "BadBuddhaNewsMarkers_Lite",
+  "version": "1.2.0",
+  "releaseDate": "2026-01-07",
+  "type": "indicator",
+  "tier": "lite",
+  "minNinjaTraderVersion": "8.0.0.0",
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-Lite/1.2.0.0?source=update"
+}
