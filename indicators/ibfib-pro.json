@@ -1,0 +1,9 @@
+{
+  "product": "BadBuddha IBFib (Pro)",
+  "version": "2.1.2.0",
+  "releaseDate": "2026-01-10",
+  "type": "indicator",
+  "tier": "lite",
+  "minNinjaTraderVersion": "8.1.0.0",
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/InitialBalance-Pro/2.1.2.0?source=update"
+}
