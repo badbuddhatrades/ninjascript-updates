@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha Trade Disciple",
-  "version": "3.1.0.0",
-  "releaseDate": "2026-02-05",
+  "version": "3.5.1.0",
+  "releaseDate": "2026-02-17",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/TradeDisciple-Pro/3.1.0.0?source=update"
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/TradeDisciple-Pro/3.5.1.0?source=update"
 }
