@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha CBCFlip Lite",
-  "version": "2.1.2.0",
-  "releaseDate": "2026-01-04",
+  "version": "2.2.0.0",
+  "releaseDate": "2026-02-23",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/CBCFlip-Lite/2.1.2.0?source=update"
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/CBCFlip-Lite/2.2.0.0?source=update"
 }
