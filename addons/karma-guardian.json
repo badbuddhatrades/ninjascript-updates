@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha Karma Guardian",
-  "version": "3.8.0.0",
-  "releaseDate": "2026-05-10",
+  "version": "3.9.0.0",
+  "releaseDate": "2026-06-24",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/KarmaGuardian-Pro/3.8.0.0?source=update"
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/KarmaGuardian-Pro/3.9.0.0?source=update"
 }
