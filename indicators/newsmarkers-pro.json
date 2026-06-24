@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha NewsMarkers PRO",
-  "version": "4.6.0.0",
-  "releaseDate": "2026-03-28",
+  "version": "4.7.2.0",
+  "releaseDate": "2026-06-24",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-PRO/4.6.0.0?source=update"
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-PRO/4.7.2.0?source=update"
 }
