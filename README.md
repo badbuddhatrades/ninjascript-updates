@@ -27,7 +27,7 @@ Each product has a JSON file with the following structure:
   "productType": "Lite",
   "latestVersion": "2.1.1.0",
   "releaseDate": "2026-01-03",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/InitialBalance-Lite/2.1.1.0?source=update",
+  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Lite/2.1.1.0?source=update",
   "releaseNotes": "Bug fixes and performance improvements",
   "minimumNTVersion": "8.0.0.0"
 }
