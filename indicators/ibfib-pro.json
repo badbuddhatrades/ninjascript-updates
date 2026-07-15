@@ -3,7 +3,7 @@
   "version": "2.5.2.0",
   "releaseDate": "2026-03-25",
   "type": "indicator",
-  "tier": "lite",
+  "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Pro/2.5.2.0?source=update"
 }

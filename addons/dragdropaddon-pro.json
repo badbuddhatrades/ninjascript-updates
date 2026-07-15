@@ -3,7 +3,7 @@
   "version": "v4.2.1.0",
   "releaseDate": "2026-02-13",
   "type": "addon",
-  "tier": "lite",
+  "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Pro/4.2.1.0?source=update"
 }
