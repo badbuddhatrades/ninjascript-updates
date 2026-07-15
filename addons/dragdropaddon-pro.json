@@ -1,10 +1,10 @@
 {
   "product": "Badbuddha DragDrop Addon",
-  "version": "v2.4.1.0",
+  "version": "v4.2.1.0",
   "releaseDate": "2026-02-13",
   "type": "addon",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/DradDropAddon-Pro/2.4.1.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Pro/4.2.1.0?source=update"
 }
 
