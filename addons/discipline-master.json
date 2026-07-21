@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha Discipline Master",
-  "version": "1.2.6.0",
-  "releaseDate": "2026-03-10",
+  "version": "2.1.1.0",
+  "releaseDate": "2026-07-21",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/DisciplineMaster-Pro/1.2.6.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/DisciplineMaster-Pro/2.1.1.0?source=update"
 }
