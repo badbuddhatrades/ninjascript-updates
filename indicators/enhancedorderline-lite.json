@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha_EnhancedOrderLineLite",
-  "version": "2.1.1.0",
-  "releaseDate": "2026-01-07",
+  "version": "2.4.0.0",
+  "releaseDate": "2026-07-29",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/EnhancedOrderLine-Lite/2.1.1.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/EnhancedOrderLine-Lite/2.4.0.0?source=update"
 }
