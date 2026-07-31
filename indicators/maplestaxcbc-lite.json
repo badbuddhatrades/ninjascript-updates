@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha MapleStax CBC",
-  "version": "2.0.0.0",
-  "releaseDate": "2026-05-25",
+  "version": "2.1.0.0",
+  "releaseDate": "2026-07-31",
   "type": "indicator",
   "tier": "free",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/MapleStaxCBC-Lite/2.0.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/MapleStaxCBC-Lite/2.1.0.0?source=update"
 }

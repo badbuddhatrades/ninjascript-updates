@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha MTF MultiMA",
-  "version": "2.2.0.0",
-  "releaseDate": "2026-03-09",
+  "version": "2.3.0.0",
+  "releaseDate": "2026-07-31",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/MTF-MultiMA-Pro/2.2.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/MTF-MultiMA-Pro/2.3.0.0?source=update"
 }
