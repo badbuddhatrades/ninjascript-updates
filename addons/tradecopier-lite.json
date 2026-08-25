@@ -1,9 +1,0 @@
-{
-  "product": "Badbuddha Trade Copier Lite",
-  "version": "v2.4.0.0",
-  "releaseDate": "2026-01-16",
-  "type": "indicator",
-  "tier": "lite",
-  "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/TradeCopier-Lite/2.4.0.0?source=update"
-}
