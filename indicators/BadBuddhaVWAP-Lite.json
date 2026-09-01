@@ -1,9 +1,9 @@
 {
   "product": "BadBuddhaVWAP_Lite",
-  "version": "2.3.0.0",
+  "version": "2.4.0.0",
   "releaseDate": "2026-08-31",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/BadBuddhaVWAP-Lite/2.3.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/BadBuddhaVWAP-Lite/2.4.0.0?source=update"
 }
