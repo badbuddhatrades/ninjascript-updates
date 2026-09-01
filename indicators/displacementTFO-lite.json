@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha DisplacementTFO (Lite)",
-  "version": "1.2.1.0",
-  "releaseDate": "2026-02-14",
+  "version": "1.3.0.0",
+  "releaseDate": "2026-09-01",
   "type": "indicator",
   "tier": "free",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/DisplacementTFO-Lite/1.2.1.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/DisplacementTFO-Lite/1.3.0.0?source=update"
 }
