@@ -1,9 +1,9 @@
 {
   "product": "BadBuddha Volume Pressure (Pro)",
-  "version": "1.2.0.0",
-  "releaseDate": "2026-01-06",
+  "version": "1.3.0.0",
+  "releaseDate": "2026-09-01",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/VolumePressure-Pro/1.2.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/VolumePressure-Pro/1.3.0.0?source=update"
   }
