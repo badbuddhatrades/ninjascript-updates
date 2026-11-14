@@ -1,66 +1,60 @@
 # NinjaScript Updates
 
-This repository contains version information and update metadata for BadBuddha Customs NinjaScript indicators and strategies.
+This repository contains version information and update metadata for BadBuddha Customs NinjaScript indicators, addons and strategies.
 
 ## Purpose
 
-This repo serves as the central source of truth for version checking in all BadBuddha NinjaScript products. Each indicator/strategy checks its corresponding JSON file to determine if updates are available.
+This repo is the source of truth for version checking in all BadBuddha NinjaScript products. Each product checks its own JSON file to see whether an update is available, and the badbuddhacustoms.com build reads the same files for its download links and "Updated" badges.
 
 ## Structure
 ```
 ninjascript-updates/
-├── indicators/
-│   ├── InitialBalance-Lite.json
-│   ├── InitialBalance-Pro.json
-│   └── ...
-├── strategies/
-│   └── ...
+├── indicators/   e.g. zenzones-pro.json, newsmarkers-lite.json
+├── addons/       e.g. karma-guardian.json, trade-disciple.json
 └── README.md
 ```
 
+File names are **case-sensitive** (raw.githubusercontent.com). They must match the `ManifestUrl` constant in each product's source exactly.
+
 ## JSON File Format
 
-Each product has a JSON file with the following structure:
 ```json
 {
-  "productName": "Initial Balance Fibonacci Extensions",
-  "productType": "Lite",
-  "latestVersion": "2.1.1.0",
-  "releaseDate": "2026-01-03",
-  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Lite/2.1.1.0?source=update",
-  "releaseNotes": "Bug fixes and performance improvements",
-  "minimumNTVersion": "8.0.0.0"
+  "product": "BadBuddha_ZenZonesPro",
+  "version": "4.1.0.0",
+  "releaseDate": "2026-11-20",
+  "type": "indicator",
+  "tier": "pro",
+  "minNinjaTraderVersion": "8.0.0.0",
+  "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.1.0.0?source=update",
+  "published": "2026-11-20",
+  "notes": "One-line headline shown in the update popup.",
+  "changelog": ["Short bullet", "Another bullet"]
 }
 ```
 
+| Field | Read by |
+|---|---|
+| `version`, `downloadUrl` | the in-NinjaTrader updater and the website |
+| `releaseDate` | the website (ribbons and Product schema) |
+| `published`, `notes`, `changelog` | the in-NinjaTrader update popup |
+
+`notes` and `changelog` must not contain `"`, and changelog items must not contain `]`. The updater's parser stops at those characters.
+
 ## How It Works
 
-1. NinjaScript indicators/strategies check their corresponding JSON file on startup or via manual update check
-2. If the `latestVersion` is newer than the installed version, user is notified
-3. User can click to download the update from the `downloadUrl`
-4. Downloads are served via Cloudflare Workers with tracking and analytics
+1. Products check their JSON file on startup (on a cadence) or through a manual update check.
+2. If `version` is newer than the installed version, the user sees the update popup with the notes.
+3. The download goes through the Cloudflare Worker at badbuddhacdn.com, which logs it to D1 and serves the zip from R2 (`indicators/<key>/v<version>/<key>.zip`).
 
 ## Updating Products
 
-When releasing a new version:
+Don't edit these files by hand. Use the release tool in the CodeRepo repo:
 
-1. Upload new ZIP file to R2 storage at appropriate path
-2. Update the corresponding JSON file in this repo with:
-   - New `latestVersion` number
-   - New `releaseDate`
-   - Updated `downloadUrl` with new version
-   - New `releaseNotes`
-3. Commit and push changes
-4. Updates will be available to users within minutes
+- In Claude: **"release &lt;product&gt;"** (the `ninjascript-release` skill)
+- By hand: `pwsh -File tools/release/release.ps1 -Product <key> -Mode Check`, then `-Mode Publish -NotesFile notes.json`
 
-## Access
-
-- **Raw JSON URLs:** Use GitHub raw content URLs for programmatic access
-- **Format:** `https://raw.githubusercontent.com/badbuddhacustoms/ninjascript-updates/main/indicators/{ProductName}-{Type}.json`
-
-## Questions or Issues?
-
-Visit [BadBuddha Customs](https://www.badbuddhacustoms.com) or contact support.
+It uploads the zip to R2, checks the download URL, and only then updates and pushes the JSON. That way customers are never told about a file that isn't live yet.
 
 ---
 
