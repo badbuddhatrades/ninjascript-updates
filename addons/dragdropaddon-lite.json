@@ -5,5 +5,6 @@
   "type": "addon",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
+  "ntMinBuild": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Lite/2.7.0.0?source=update"
 }

@@ -5,6 +5,7 @@
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
+  "ntMinBuild": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Pro/4.5.0.0?source=update"
 }
 

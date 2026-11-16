@@ -5,5 +5,6 @@
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
+  "ntMinBuild": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.0.0.0?source=update"
 }

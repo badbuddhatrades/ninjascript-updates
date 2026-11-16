@@ -5,6 +5,7 @@
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.1.0",
+  "ntMinBuild": "8.1.1.0",
   "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-Pro/6.1.2.0?source=update",
   "published": "2026-11-16",
   "notes": "Event times now follow your NinjaTrader time zone, with safer strategy outputs and popout fixes.",

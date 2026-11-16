@@ -26,6 +26,7 @@ File names are **case-sensitive** (raw.githubusercontent.com). They must match t
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
+  "ntMinBuild": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.1.0.0?source=update",
   "published": "2026-11-20",
   "notes": "One-line headline shown in the update popup.",
@@ -37,7 +38,7 @@ File names are **case-sensitive** (raw.githubusercontent.com). They must match t
 |---|---|
 | `version`, `downloadUrl` | the in-NinjaTrader updater and the website |
 | `releaseDate` | the website (ribbons and Product schema) |
-| `published`, `notes`, `changelog` | the in-NinjaTrader update popup |
+| `published`, `notes`, `changelog`, `ntMinBuild` | the in-NinjaTrader update popup (`ntMinBuild` fills its Min NT line; the release tool copies it from `minNinjaTraderVersion`) |
 
 `notes` and `changelog` must not contain `"`, and changelog items must not contain `]`. The updater's parser stops at those characters.
 

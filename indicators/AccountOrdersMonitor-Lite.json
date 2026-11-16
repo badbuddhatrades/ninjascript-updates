@@ -5,6 +5,7 @@
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
+  "ntMinBuild": "8.0.0.0",
   "downloadUrl": "https://badbuddhacdn.com/download/AccountOrdersMonitor-Lite/2.5.1.0?source=update",
   "published": "2026-11-16",
   "notes": "Smoother charts and a more complete order list: the table now redraws only when your orders change, and no account is hidden when another one fills the table.",
