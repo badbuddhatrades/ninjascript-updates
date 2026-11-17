@@ -1,10 +1,20 @@
 {
   "product": "BadBuddha_IBFibLite",
-  "version": "2.5.0.0",
-  "releaseDate": "2026-07-29",
+  "version": "2.6.0.0",
+  "releaseDate": "2026-11-16",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Lite/2.5.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Lite/2.6.0.0?source=update",
+  "published": "2026-11-16",
+  "notes": "Fixes the Initial Balance not drawing on overnight futures sessions, plus several session-boundary and label fixes.",
+  "changelog": [
+    "Fixed the IB not drawing on overnight sessions such as CME futures when anchored to the calendar day without a fixed start time",
+    "Fixed IBs that end at or after midnight never completing",
+    "Labels now sit at the right end of the lines on the live session instead of where the IB ended",
+    "The IB now completes and draws on its last bar instead of one bar later",
+    "With Extend Lines To Session End off, lines stop at the session end and charts load faster",
+    "The update notice can now appear as soon as the chart goes live"
+  ]
 }
