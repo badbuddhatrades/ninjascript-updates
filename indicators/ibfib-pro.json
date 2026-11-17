@@ -1,20 +1,18 @@
 {
   "product": "BadBuddha IBFib (Pro)",
-  "version": "2.8.0.0",
-  "releaseDate": "2026-11-16",
+  "version": "2.8.1.0",
+  "releaseDate": "2026-11-17",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
   "ntMinBuild": "8.1.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Pro/2.8.0.0?source=update",
-  "published": "2026-11-16",
-  "notes": "The Layered edition is now built into PRO: any block can draw as a shaded zone and start with Block 1, and the layered layout is the new default.",
+  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Pro/2.8.1.0?source=update",
+  "published": "2026-11-17",
+  "notes": "Fixes for overnight sessions and label placement, so every IB block draws and labels on 24-hour charts.",
   "changelog": [
-    "Each block can now draw as lines with Fibonacci levels or as a shaded zone, and Blocks 2 to 4 can start with Block 1 for a nested, layered view",
-    "New default layout: Blocks 2 and 3 show as 30 and 15 minute zones inside the Block 1 IB. Saved charts with Block 2 or 3 on will now show them as zones; set Style to 0 to switch back",
-    "Fixed IBs that end at or after midnight never completing",
-    "Fixed session-anchored IBs resetting on the last bar of the session",
-    "The IB rectangle no longer draws a solid border around its shaded fill",
-    "New Max History setting limits how many past days are drawn, for faster charts"
+    "Blocks that start at the session open, with no fixed start time, now draw on overnight sessions such as CME 17:00 to 16:00. Before, they showed nothing.",
+    "Fixed IBs being placed in the wrong session on trading hours where one session ends exactly as the next begins.",
+    "IB, midline and Fibonacci labels now sit at the session end on today's chart instead of in the middle of it.",
+    "The IB now completes and draws on its last bar instead of one bar later."
   ]
 }
