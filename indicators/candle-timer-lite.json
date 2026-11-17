@@ -1,10 +1,18 @@
 {
   "product": "BadBuddha Candle Timer Lite",
-  "version": "1.1.0.0",
-  "releaseDate": "2026-04-21",
+  "version": "1.1.1.0",
+  "releaseDate": "2026-11-17",
   "type": "indicator",
   "tier": "free",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/CandleTimer-Lite/1.1.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/CandleTimer-Lite/1.1.1.0?source=update",
+  "published": "2026-11-17",
+  "notes": "The candle timer now works on Heikin Ashi charts.",
+  "changelog": [
+    "The countdown now shows on Heikin Ashi charts, timed by the chart's base period, with HA in the label.",
+    "The countdown now stays correct when NinjaTrader is set to a different time zone than your PC.",
+    "The timer starts reliably on supported charts.",
+    "The update notice now appears once a newer version is available, instead of never showing."
+  ]
 }
