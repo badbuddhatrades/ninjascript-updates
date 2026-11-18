@@ -1,10 +1,20 @@
 {
   "product": "BadBuddha_ZenZonesPro",
-  "version": "4.0.0.0",
-  "releaseDate": "2026-09-01",
+  "version": "4.0.1.0",
+  "releaseDate": "2026-11-18",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.0.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.0.1.0?source=update",
+  "published": "2026-11-18",
+  "notes": "Session and Today filters now follow your trading session, with fixes to success rates, re-test zones and the strategy plots.",
+  "changelog": [
+    "Current Session Only now shows just the current session's zones, where before it showed almost all of them.",
+    "The Today filters count trading days instead of calendar days, so overnight sessions are grouped correctly.",
+    "The success rate now counts zones that break, not only zones that hold.",
+    "Keep Both now keeps the original zone and adds the re-test zone, instead of acting like Flip.",
+    "The Active Zones, Confluence and Strength plots used by strategies now update when Show Zones is off.",
+    "4h and Daily timeframes show a notice while they're still loading enough history."
+  ]
 }
