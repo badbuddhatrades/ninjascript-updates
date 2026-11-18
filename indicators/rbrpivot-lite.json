@@ -1,10 +1,18 @@
 {
   "product": "Badbuddha_RBRPivots_Lite",
-  "version": "3.1.0.0",
-  "releaseDate": "2026-01-09",
+  "version": "3.1.1.0",
+  "releaseDate": "2026-11-18",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/RBRPivot-Lite/3.1.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/RBRPivot-Lite/3.1.1.0?source=update",
+  "published": "2026-11-18",
+  "notes": "Fib extensions now stay on the chart, and the higher-timeframe modes draw in the right place.",
+  "changelog": [
+    "The 1.000, 1.272 and 1.618 Fib levels now stay on the chart as targets. Before, they were removed as soon as they were drawn.",
+    "A Fib level is removed when price closes back through it, and the whole set goes when its pivot breaks, together with the S/R line.",
+    "On the higher-timeframe pivot settings, boxes, S/R lines and Fib levels now start at the right bar, matching the higher-timeframe pivot.",
+    "Your own setting changes are kept after a reload. A preset only applies when you choose Apply Preset Now."
+  ]
 }
