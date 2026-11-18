@@ -1,10 +1,20 @@
 {
   "product": "BadBuddha Trade Disciple",
-  "version": "4.1.2.0",
-  "releaseDate": "2026-08-13",
+  "version": "4.1.3.0",
+  "releaseDate": "2026-11-18",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/TradeDisciple-Pro/4.1.2.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/TradeDisciple-Pro/4.1.3.0?source=update",
+  "published": "2026-11-18",
+  "notes": "Safer position syncing: closes and reversals now wait for pending orders to settle, with clear alerts whenever an account needs your attention.",
+  "changelog": [
+    "When the master closes or reverses, each account's own exit orders now finish before anything is sent, so an account can no longer overshoot into the opposite position.",
+    "Resting copies of master entries that already filled are cancelled when the master goes flat, so they can't fill later without protection.",
+    "Stops and targets for short positions are held until the entry fills, and protective orders are kept when a reversal opens a new position.",
+    "Accounts locked by Karma Guardian are closed but not reopened during a reversal, and you get an alert.",
+    "New alerts warn you when an account may not match the master, including after Disable or Flatten All.",
+    "Open Orders now lists part-filled and pending orders, the window remembers its position, and the splash and risk disclaimer work on every Windows language setting."
+  ]
 }
