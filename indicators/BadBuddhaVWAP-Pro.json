@@ -1,10 +1,19 @@
 {
   "product": "BadBuddhaVWAP-Pro",
-  "version": "2.4.0.0",
-  "releaseDate": "2026-08-31",
+  "version": "2.4.1.0",
+  "releaseDate": "2026-11-19",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/BadBuddhaVWAP-Pro/2.4.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/BadBuddhaVWAP-Pro/2.4.1.0?source=update",
+  "published": "2026-11-19",
+  "notes": "Fixes for VWAP resets on daily charts, at the new year and at midnight.",
+  "changelog": [
+    "Daily charts with Session or Daily reset now plot the VWAP from the first bar instead of showing nothing",
+    "Weekly and higher timeframe charts plot the VWAP whenever one bar covers the whole reset period",
+    "Weekly reset no longer restarts mid-week when the calendar year changes",
+    "The bar that closes exactly at midnight now stays in the day, week or month it traded in",
+    "Licence check tightened"
+  ]
 }
