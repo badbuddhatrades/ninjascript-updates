@@ -1,20 +1,20 @@
 {
   "product": "BadBuddha Trade Disciple",
-  "version": "4.1.3.0",
-  "releaseDate": "2026-11-18",
+  "version": "4.1.4.0",
+  "releaseDate": "2026-11-23",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/TradeDisciple-Pro/4.1.3.0?source=update",
-  "published": "2026-11-18",
-  "notes": "Safer position syncing: closes and reversals now wait for pending orders to settle, with clear alerts whenever an account needs your attention.",
+  "downloadUrl": "https://badbuddhacdn.com/download/TradeDisciple-Pro/4.1.4.0?source=update",
+  "published": "2026-11-23",
+  "notes": "Copying now resumes on its own after the master reconnects, and Flatten All and Cancel All reach every account still being copied. If you installed 4.1.3.0, remove BBTC_AddOn_Lite under Tools > Remove NinjaScript Assembly and restart NinjaTrader.",
   "changelog": [
-    "When the master closes or reverses, each account's own exit orders now finish before anything is sent, so an account can no longer overshoot into the opposite position.",
-    "Resting copies of master entries that already filled are cancelled when the master goes flat, so they can't fill later without protection.",
-    "Stops and targets for short positions are held until the entry fills, and protective orders are kept when a reversal opens a new position.",
-    "Accounts locked by Karma Guardian are closed but not reopened during a reversal, and you get an alert.",
-    "New alerts warn you when an account may not match the master, including after Disable or Flatten All.",
-    "Open Orders now lists part-filled and pending orders, the window remembers its position, and the splash and risk disclaimer work on every Windows language setting."
+    "After the master account reconnects, copying resumes on its own. Some reconnects used to block every copy until you disabled and re-enabled the copier.",
+    "A master order skipped because the master is disconnected now shows a warning row and an alert instead of only a log line.",
+    "Flatten All and Cancel All now include accounts you unchecked while copying, and the master the copier was still following.",
+    "Changing the master or disciple accounts while copying now warns you that the change takes effect after Disable and Enable.",
+    "With cross-order on, closing a master position on an instrument that was not converted now flattens the disciples on that instrument.",
+    "If you installed 4.1.3.0, NinjaTrader may show two copies. Remove BBTC_AddOn_Lite under Tools > Remove NinjaScript Assembly, keep TradeDisciplePro, and restart NinjaTrader."
   ]
 }
