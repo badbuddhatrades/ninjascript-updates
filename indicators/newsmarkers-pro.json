@@ -1,20 +1,19 @@
 {
   "product": "BadBuddha NewsMarkers PRO",
-  "version": "6.1.3.0",
-  "releaseDate": "2026-11-18",
+  "version": "6.1.4.0",
+  "releaseDate": "2026-11-25",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.1.0",
   "ntMinBuild": "8.1.1.0",
-  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-Pro/6.1.3.0?source=update",
-  "published": "2026-11-18",
-  "notes": "News alerts now sound on time, every time, including when the chart is minimized.",
+  "downloadUrl": "https://ninjascript-downloads.badbuddhacustoms.workers.dev/download/NewsMarkers-Pro/6.1.4.0?source=update",
+  "published": "2026-11-25",
+  "notes": "Low-impact and holiday events now show on your chart, and the strategy news outputs update every second instead of only at bar close.",
   "changelog": [
-    "The alert sound now plays with the default settings. Before, alerts only showed in the Alerts log.",
-    "Alerts keep sounding when the chart is minimized or in the background, and you no longer get a burst of late alerts when you bring it back.",
-    "Each alert sounds once, at its set time, on every chart type, including tick, range, Renko and volume charts.",
-    "The alert message shows the real minutes left until the release.",
-    "Alerts work in Playback and Market Replay, and alerts for events just after midnight are no longer missed.",
-    "Network paths in Alert Sound File are now ignored for safety."
+    "Low-impact and holiday events now appear as markers and in the events table. Alerts are still for High and Medium events only.",
+    "In live trading, the strategy outputs (in news window, minutes to next High or Medium event) now refresh every second, so a strategy sees the news window on time, even on slow charts.",
+    "Two releases with the same name in the same week are no longer merged into one marker.",
+    "Your own chart right margin is now restored when the indicator is removed.",
+    "Network paths in Alert Sound File are now always ignored for safety, however the slashes are written."
   ]
 }
