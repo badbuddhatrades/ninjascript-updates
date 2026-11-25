@@ -1,20 +1,15 @@
 {
   "product": "BadBuddha Volume Pressure (Pro)",
-  "version": "1.3.1.0",
-  "releaseDate": "2026-11-16",
+  "version": "1.3.2.0",
+  "releaseDate": "2026-11-25",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/VolumePressure-Pro/1.3.1.0?source=update",
-  "published": "2026-11-16",
-  "notes": "Overlay mode now shows selling volume correctly, and update notices now show up reliably.",
+  "downloadUrl": "https://badbuddhacdn.com/download/VolumePressure-Pro/1.3.2.0?source=update",
+  "published": "2026-11-25",
+  "notes": "Hot volume signals for strategies now match the chart.",
   "changelog": [
-    "Overlay mode now draws the red selling bars on top of the green total-volume bars, where before the green covered them",
-    "The update notice now appears once the chart goes live, instead of sometimes never showing up",
-    "Strategies using Volume Pressure Pro now always read the current bar's values, even when a line or bar series is hidden on the chart",
-    "Hot volume markers no longer appear on bars with zero volume or before the average has enough bars",
-    "When buying and selling volume are equal, both bars now stay in full colour",
-    "Charts with long history load faster when the stats labels are on"
+    "Strategies that read hot or unusual volume no longer get a signal on a bar with no volume, which matches the hot volume markers on the chart."
   ]
 }
