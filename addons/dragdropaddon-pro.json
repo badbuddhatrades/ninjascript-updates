@@ -1,11 +1,20 @@
 {
   "product": "Badbuddha DragDrop Addon",
-  "version": "4.5.0.0",
-  "releaseDate": "2026-08-31",
+  "version": "4.5.1.0",
+  "releaseDate": "2026-11-25",
   "type": "addon",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Pro/4.5.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/DragDropAddon-Pro/4.5.1.0?source=update",
+  "published": "2026-11-25",
+  "notes": "Safer stop handling and clearer alerts when a bracket order is rejected.",
+  "changelog": [
+    "Breakeven and trailing only ever tighten a stop, and never move it to or through the market.",
+    "If a stop is rejected or cancelled by the broker after your brackets are placed, you now get a popup and a sound saying the position may be unprotected.",
+    "A target dragged behind the current price is refused instead of filling at once and closing your position.",
+    "Shift+drag keeps working after you switch the chart to another instrument, and releasing Shift before the mouse button cancels the drag with a message.",
+    "Preview lines sit exactly under the cursor, and Chart Trader buttons no longer duplicate after a recompile or when switching tabs.",
+    "The settings window checks bracket-set percentages and preset names before saving."
+  ]
 }
-
