@@ -1,10 +1,15 @@
 {
   "product": "BadBuddha MTF MultiMA",
-  "version": "2.4.0.0",
-  "releaseDate": "2026-09-01",
+  "version": "2.4.1.0",
+  "releaseDate": "2026-11-25",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
   "ntMinBuild": "8.1.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/MTF-MultiMA-Pro/2.4.0.0?source=update"
+  "downloadUrl": "https://badbuddhacdn.com/download/MTF-MultiMA-Pro/2.4.1.0?source=update",
+  "published": "2026-11-25",
+  "notes": "Maintenance update with a cleaner install.",
+  "changelog": [
+    "The download now installs only the MTF MultiMA Pro indicator. An extra copy that some installs showed in the indicator list is gone."
+  ]
 }
