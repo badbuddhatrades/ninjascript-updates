@@ -1,20 +1,19 @@
 {
   "product": "BadBuddha_ZenZonesPro",
-  "version": "4.0.1.0",
-  "releaseDate": "2026-11-18",
+  "version": "4.0.2.0",
+  "releaseDate": "2026-11-25",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.0.1.0?source=update",
-  "published": "2026-11-18",
-  "notes": "Session and Today filters now follow your trading session, with fixes to success rates, re-test zones and the strategy plots.",
+  "downloadUrl": "https://badbuddhacdn.com/download/ZenZones-Pro/4.0.2.0?source=update",
+  "published": "2026-11-25",
+  "notes": "Cleaner price scale, working re-test counts, and more reliable zone tracking.",
   "changelog": [
-    "Current Session Only now shows just the current session's zones, where before it showed almost all of them.",
-    "The Today filters count trading days instead of calendar days, so overnight sessions are grouped correctly.",
-    "The success rate now counts zones that break, not only zones that hold.",
-    "Keep Both now keeps the original zone and adds the re-test zone, instead of acting like Flip.",
-    "The Active Zones, Confluence and Strength plots used by strategies now update when Show Zones is off.",
-    "4h and Daily timeframes show a notice while they're still loading enough history."
+    "The zone count values no longer stretch the price scale or show on the price axis. Re-add the indicator to an existing chart to pick this up.",
+    "Re-test zones now count each re-test even when Success Rate Tracking is off.",
+    "At the zone limit, a hot bar that cannot form a zone no longer removes your oldest zone.",
+    "In Keep Both re-test mode, a broken zone is now removed when there is no room for its re-test zone.",
+    "Zone counts for strategies no longer include a zone broken on the current bar."
   ]
 }
