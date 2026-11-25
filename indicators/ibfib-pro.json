@@ -1,18 +1,17 @@
 {
   "product": "BadBuddha IBFib (Pro)",
-  "version": "2.8.1.0",
-  "releaseDate": "2026-11-17",
+  "version": "2.8.2.0",
+  "releaseDate": "2026-11-25",
   "type": "indicator",
   "tier": "pro",
   "minNinjaTraderVersion": "8.1.0.0",
   "ntMinBuild": "8.1.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Pro/2.8.1.0?source=update",
-  "published": "2026-11-17",
-  "notes": "Fixes for overnight sessions and label placement, so every IB block draws and labels on 24-hour charts.",
+  "downloadUrl": "https://badbuddhacdn.com/download/InitialBalance-Pro/2.8.2.0?source=update",
+  "published": "2026-11-25",
+  "notes": "IB lines now show correctly on overnight charts when Extend To Session End is off.",
   "changelog": [
-    "Blocks that start at the session open, with no fixed start time, now draw on overnight sessions such as CME 17:00 to 16:00. Before, they showed nothing.",
-    "Fixed IBs being placed in the wrong session on trading hours where one session ends exactly as the next begins.",
-    "IB, midline and Fibonacci labels now sit at the session end on today's chart instead of in the middle of it.",
-    "The IB now completes and draws on its last bar instead of one bar later."
+    "On overnight sessions such as CME 17:00 to 16:00, calendar-anchored IBs with Extend To Session End off now draw on every past day. Before, their lines were invisible and zones stopped at the end of the IB.",
+    "This includes IBs that end at or after midnight, such as the default Block 4 at 23:00.",
+    "On the live chart, the previous day's IB keeps following price after midnight until its session closes."
   ]
 }
