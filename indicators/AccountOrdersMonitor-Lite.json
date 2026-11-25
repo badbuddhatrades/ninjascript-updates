@@ -1,19 +1,16 @@
 {
   "product": "BadBuddha Account Orders Monitor Lite",
-  "version": "2.5.1.0",
-  "releaseDate": "2026-11-16",
+  "version": "2.5.2.0",
+  "releaseDate": "2026-11-24",
   "type": "indicator",
   "tier": "lite",
   "minNinjaTraderVersion": "8.0.0.0",
   "ntMinBuild": "8.0.0.0",
-  "downloadUrl": "https://badbuddhacdn.com/download/AccountOrdersMonitor-Lite/2.5.1.0?source=update",
-  "published": "2026-11-16",
-  "notes": "Smoother charts and a more complete order list: the table now redraws only when your orders change, and no account is hidden when another one fills the table.",
+  "downloadUrl": "https://badbuddhacdn.com/download/AccountOrdersMonitor-Lite/2.5.2.0?source=update",
+  "published": "2026-11-24",
+  "notes": "Partly filled orders now stay in the table while the rest of the order is still working.",
   "changelog": [
-    "The chart redraws only when an order changes, instead of twice a second",
-    "Market-if-touched orders now show their trigger price",
-    "Orders from every account are scanned; a +N more row appears when the table is full",
-    "One shared order scan serves all your charts, lowering load with many charts open",
-    "Debug settings moved to the bottom of the Properties window"
+    "A limit or stop order that is partly filled no longer disappears from the table",
+    "The table no longer shows No open orders while a partly filled order is still live"
   ]
 }
